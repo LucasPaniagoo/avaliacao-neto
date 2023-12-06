@@ -39,6 +39,12 @@ body{
     font-family: var(--fonte-principal);
     color: var(--cor-branca);
 }
+.container__botao:hover{
+    background-color: var(--cor-preta-hover);
+}
+.container__botao:active{
+    background-color: var(--cor-preta-hover);
+}
 .box{
     display: flex;
     flex-direction: column;
